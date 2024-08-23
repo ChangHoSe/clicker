@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ezzzzzy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="popup-message"></div>
+      <h1>Clicker</h1>
+      <div id="stats">
+        <p>Rebirths: <span id="rebirths">0</span></p>
+        <p>Clicks: <span id="clicks">0</span></p>
+        <p>Click Power: <span id="clickPower">1</span></p>
+        <p>Auto Click Power: <span id="autoClickers">0</span></p>
+      </div>
+      <button id="clickButton">Click</button>
+      <button id="upgradeClickPower">Upgrade Click (10)</button>
+      <button id="buyAutoClicker">Upgrade Auto (50)</button>
+      <button id="rebirthButton">
+        Rebirth (<span id="rebirthCost">1000000</span> clicks)
+      </button>
+      <div id="save-load">
+        <button id="saveButton">Save Game</button>
+        <button id="loadButton">Load Game</button>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
